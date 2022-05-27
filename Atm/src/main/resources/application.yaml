@@ -9,6 +9,7 @@ spring:
 application:
   name:atm-backend
 datasource:
+  driverClassName:com.mysql.jdbc.Driver
   url:jdbc:mysql://localhost:3306/atmdb?createDatabaseIfNotExist=true&autoReconnect=true&allowPublicKeyRetrieval=true&useSSL=false
   username:root
   password:admin

@@ -65,7 +65,7 @@
 			<plugin>
 				<groupId>org.springdoc</groupId>
 				<artifactId>springdoc-openapi-maven-plugin</artifactId>
-				<version>${springdoc-openapi-plugin.version}</version>
+				<version>${openapi-plugin.version}</version>
 				<executions>
 					<execution>
 						<id>integration-test</id>
